@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: #333;
+    font-family: sans-serif;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+.contents {
+    padding: 6% 12%
+}
+.contents__ttl {
+    font-size: 1.8em;
+}
+.contents__sub_ttl {
+    margin-top: 2%;
+}
+.contents__text {
+    margin-top: 2%;
+}
+.contents__supplement {
+    margin-top: 4%;
+}
+.contents__supplement__ttl {
+    margin-top: 2%;
+}
+.contents__supplement__index {
+    margin-top: 2%;
+}
+.book__info {
+    display: flex;
+}
+.book__info__detail__img {
+    width: 55%;
+}
+.contact {
+    margin-top: 4%;
+}
