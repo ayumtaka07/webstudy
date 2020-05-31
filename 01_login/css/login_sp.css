@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+a{
+  color: #333;
+}
+.login {
+  border: 2px solid #5507ff;
+  border-radius: 1em;
+  box-sizing: border-box;
+  width: 84%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.login__ttl {
+  background-color: #5507ff;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 6%;
+}
+@charset "UTF-8";
+.login__contents {
+  padding: 5% 10%;
+}
+.login__info {
+    text-align: left;
+    width: 100%;
+    border-spacing: 0 0.8em;
+}
+.login__info__wrapper__headline {
+  display: block;
+}
+.login__info__wrapper__input {
+  display: block;
+}
+.name__frame {
+    height: 6vh;
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 0.8em;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+}
+.name__frame:focus {
+  outline: none;
+  background-color: #ffdbc9;
+  border-color: #ff4f02;
+}
+.password__frame {
+    height: 6vh;
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 0.8em;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+}
+.password__frame:focus {
+    outline: none;
+    background-color: #ffdbc9;
+    border-color: #ff4f02;
+}
+.login__info__memory {
+  font-size: 0.9em;
+  width: 25vw;
+}
+.memory__frame {
+  display: none;
+}
+.memory__text {
+  position: relative;
+  padding-left: 10%;
+}
+.memory__text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #333;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.memory__frame:checked + .memory__text::before{
+  background-color: #d9e5ff;
+}
+.memory__frame:checked + .memory__text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 15%;
+  left: 4%;
+  height: 10px;
+  width: 4px;
+  transform: rotate(40deg);
+  border-bottom: 2px solid #5507ff;
+  border-right: 2px solid #5507ff;
+  box-sizing: border-box;
+}
+.btn__frame {
+  border: 2px solid #5507ff;
+  border-radius: 0.5em;
+  background: linear-gradient(#7b3cff, #5d99ff);
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  height: 6vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+}
+.btn__frame:active{
+  transform: translateY(2px);
+  opacity: 0.5;
+}
+.forgetting{
+    font-size: 0.9em;
+}
