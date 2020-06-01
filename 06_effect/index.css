@@ -14,55 +14,55 @@ img {
   vertical-align: middle;
 }
 .effect {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .effect__contents {
-    position: relative;
-    width: calc(50% - 4%);
-    border: 20px solid #ddd;
-    box-sizing: border-box;
-    margin: 1%;
-    overflow: hidden;
+  position: relative;
+  width: calc(50% - 4%);
+  border: 20px solid #ddd;
+  box-sizing: border-box;
+  margin: 1%;
+  overflow: hidden;
 }
 .effect__contents__index {
-    position: absolute;
-    top: 9%;
-    left: 8%;
-    z-index: 2;
+  position: absolute;
+  top: 9%;
+  left: 8%;
+  z-index: 2;
 }
 .effect__contents__index__text {
-    font-size: 0.8em;
-    font-weight: normal;
+  font-size: 0.8em;
+  font-weight: normal;
 }
 .first_image:hover {
   transform: scale(1.2, 1.2);
 }
 .second_image {
-    height: 100%;
-    width: 100%;
-    background-image: url(./common/img/cat_sumple.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-image: url(./common/img/cat_sumple.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 .second_image:hover {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    filter: blur(6px);
-    height: auto;
-    width: calc(100% + 2%);
-    margin: -1%;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(6px);
+  height: auto;
+  width: calc(100% + 2%);
+  margin: -1%;
 }
 .third_image:hover {
-    filter: grayscale(1);
+  filter: grayscale(1);
 }
 .fourth_image:hover {
-    transform: scale(1.2, 1.2) rotateY(180deg);
+  transform: scale(1.2, 1.2) rotateY(180deg);
 }

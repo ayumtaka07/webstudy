@@ -33,9 +33,9 @@ a{
   padding: 5% 10%;
 }
 .login__info {
-    text-align: left;
-    width: 100%;
-    border-spacing: 0 0.8em;
+  text-align: left;
+  width: 100%;
+  border-spacing: 0 0.8em;
 }
 .login__info__wrapper__headline {
   display: block;
@@ -44,14 +44,14 @@ a{
   display: block;
 }
 .name__frame {
-    height: 6vh;
-    width: 100%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #333;
-    border-radius: 0.8em;
-    box-sizing: border-box;
-    padding-left: 0.5em;
+  height: 6vh;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 0.8em;
+  box-sizing: border-box;
+  padding-left: 0.5em;
 }
 .name__frame:focus {
   outline: none;
@@ -59,19 +59,19 @@ a{
   border-color: #ff4f02;
 }
 .password__frame {
-    height: 6vh;
-    width: 100%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #333;
-    border-radius: 0.8em;
-    box-sizing: border-box;
-    padding-left: 0.5em;
+  height: 6vh;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 0.8em;
+  box-sizing: border-box;
+  padding-left: 0.5em;
 }
 .password__frame:focus {
-    outline: none;
-    background-color: #ffdbc9;
-    border-color: #ff4f02;
+  outline: none;
+  background-color: #ffdbc9;
+  border-color: #ff4f02;
 }
 .login__info__memory {
   font-size: 0.9em;
@@ -131,5 +131,5 @@ a{
   opacity: 0.5;
 }
 .forgetting{
-    font-size: 0.9em;
+  font-size: 0.9em;
 }

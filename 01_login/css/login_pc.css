@@ -1,14 +1,14 @@
 @media screen and (min-width:1000px) {
-    .login {
-      width: 34%;
-    }
-    .name__frame {
-        height: 8vh;
-    }
-    .password__frame {
-        height: 8vh;
-    }
-    .btn__frame {
-        height: 8vh;
-    }
+  .login {
+    width: 34%;
+  }
+  .name__frame {
+    height: 8vh;
+  }
+  .password__frame {
+    height: 8vh;
+  }
+  .btn__frame {
+    height: 8vh;
+  }
 }
