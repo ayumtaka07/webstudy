@@ -11,59 +11,130 @@ body {
 img {
   height: auto;
   width: 100%;
+  vertical-align: middle;
 }
 .contents {
-  padding: 6% 12%
+    padding: 4%;
 }
-.contents__ttl {
-  font-size: 1.8em;
+.header__date {
+    font-size: 1.4em;
+    text-shadow: 2px 3px 4px #888;
 }
-.contents__sub_ttl {
-  margin-top: 2%;
+.account {
+    margin-top: 2%;
 }
-.contents__text {
-  font-size: 15px;
-  margin-top: 2%;
+/* ul */
+.account_data {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
 }
-.contents__text span {
-  font-style: oblique;
+/* li */
+.account_data__list {
+    width: calc(50% - 2%);
 }
-.contents__text em {
-  font-style: oblique;
+.account_data__list:nth-child(odd) {
+    margin-right: 2%;
 }
-.contents__supplement {
-  margin-top: 4%;
+.account_data__headline {
+    font-size: 1em;
+    letter-spacing: 2px;
 }
-.contents__supplement__ttl {
-  margin-top: 2%;
+.account_data__table {
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
 }
-.contents__supplement__index {
-  margin-top: 2%;
+.table_blue_line {
+    border: 1px solid #03f;
 }
-.book__info {
-  display: flex;
-  width: 88%;
-  margin-top: 2%;
+.account_data__index {
+    color: #fff;
+    text-align: center;
 }
-.book__info__detail {
-  margin-right: 4%;
+.blue {
+    background-color: #03f;
 }
-.supplement__ytube__margin {
-  margin-top: 4%;
+.account_data__index th:first-child {
+    width: 40%;
 }
-.ytube {
-  position:relative;
-  width: 66%;
-  padding-top: 37%;
-  margin-top: 2%;
+.account_data__index th:nth-child(2) {
+    width: 20%;
 }
-.ytube iframe {
-  position:absolute;
-  top:0;
-  right:0;
-  width:100%;
-  height:100%;
+.account_data__index th:nth-child(3) {
+    width: 25%;
 }
-.contact {
-  margin-top: 4%;
+.account_data__index th:nth-child(4) {
+    width: 15%;
+}
+.account_data__line td:first-child {
+    padding-left: 2%;
+}
+.account_data__line td:nth-child(2) {
+    text-align: right;
+    padding-right: 2%;
+}
+.account_data__line td:nth-child(3), .account_data__line td:nth-child(4) {
+    text-align: center;
+}
+.account_body_blue_line td {
+    border-right: 1px solid #03f;
+    border-bottom: 1px dashed #03f;
+}
+.bk_orange {
+    background-color: #fdc;
+}
+.bk_blue {
+    background-color: #def;
+}
+.account_body_blue_last_line td {
+    border-bottom: 3px double #03f;
+}
+.table_red_line {
+    border-top: 1px solid #f00;
+    border-right: 1px solid #f00;
+    border-bottom: 1px solid #f00;
+    border-left: 1px solid #f00;
+}
+.red {
+    background-color: #f00;
+}
+.bk_red {
+    background-color: #fcc;
+}
+.account_body_red_line td {
+    border-right: 1px solid #f00;
+    border-bottom: 1px dashed #f00;
+}
+.account_body_red_last_line td {
+    border-bottom: 3px double #f00;
+}
+.account_data__list:nth-child(3), .account_data__list:nth-child(4) {
+    margin-top: 2%;
+}
+.account_body_blue_bottom {
+    border-bottom: 1px solid #03f;
+}
+.text_cancellation {
+    text-decoration: line-through;
+}
+.account_data__line td.balance{
+    text-align: right;
+    padding-right: 2%;
+}
+.excess {
+    color: #f00;
+}
+.menu {
+    margin-top: 6%;
+}
+.menu__contents {
+    margin-top: 2%;
+    padding-right: 2%;
+}
+.menu__contents__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
