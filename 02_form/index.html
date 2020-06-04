@@ -8,6 +8,111 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-        
+        <div class="contents">
+            <h1 class="contents__ttl">
+                <img class="ttl__logo" src="./common/img/sample.png" alt="ズバットピアノ買取比較">
+            </h1>
+            <form class="purchase_form" action="index.html" method="post">
+                <table class="contents__table">
+                    <caption>ピアノの情報</caption>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index">ピアノのメーカー
+                            <span class="required">必須</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="maker" value="ヤマハ">ヤマハ
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="maker" value="カワイ">カワイ
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="maker" value="その他">その他
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index">ピアノの種類
+                            <span class="required">必須</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="type" value="アップライトピアノ(縦型)">アップライトピアノ(縦型)
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="type" value="グランドピアノ">グランドピアノ
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="type" value="電子ピアノ・エレクトーン">電子ピアノ・エレクトーン
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index">モデル名
+                            <span class="required">必須</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <input type="text" name="model" value="">
+                        </td>
+                    </tr>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index">製造番号
+                            <span class="required">必須</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <input type="text" name="number" value="">
+                        </td>
+                    </tr>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index">ペダルの本数
+                            <span class="required">必須</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="pedal" value="2本">2本
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="pedal" value="3本">3本
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index">ピアノ色
+                            <span class="required">必須</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="color" value="黒">黒
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="color" value="白">白
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="color" value="茶(木目含む)">茶(木目含む)
+                            </label>
+                            <label class="input_click">
+                                <input class="contents__table__detail__radio" type="radio" name="color" value="その他">その他
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="contents__table__tr">
+                        <th class="contents__table__index contents__table__option">オプション機能
+                            <span class="optional">任意</span>
+                        </th>
+                        <td class="contents__table__detail">
+                            <label class="input_block">
+                                <input type="checkbox" name="option" value="自動演奏機能">自動演奏機能
+                            </label>
+                            <label class="input_block">
+                                <input type="checkbox" name="option" value="消音装置(ヘッドホンを使用できる装置)">消音装置(ヘッドホンを使用できる装置)
+                            </label>
+                            <div class="about_link">
+                                <a href="#">消音装置とは</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </body>
 </html>
