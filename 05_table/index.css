@@ -14,127 +14,188 @@ img {
   vertical-align: middle;
 }
 .contents {
-    padding: 4%;
+  padding: 4%;
 }
 .header__date {
-    font-size: 1.4em;
-    text-shadow: 2px 3px 4px #888;
+  font-size: 1.4em;
+  text-shadow: 2px 3px 4px #888;
 }
 .account {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 /* ul */
 .account_data {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
 }
 /* li */
 .account_data__list {
-    width: calc(50% - 2%);
+  width: calc(50% - 2%);
 }
 .account_data__list:nth-child(odd) {
-    margin-right: 2%;
+  margin-right: 2%;
 }
 .account_data__headline {
-    font-size: 1em;
-    letter-spacing: 2px;
+  font-size: 1em;
+  letter-spacing: 2px;
 }
 .account_data__table {
-    border-collapse: collapse;
-    width: 100%;
-    box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.8;
+  white-space: normal;
 }
 .table_blue_line {
-    border: 1px solid #03f;
+  border: 1px solid #03f;
 }
 .account_data__index {
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 .blue {
-    background-color: #03f;
+  background-color: #03f;
 }
 .account_data__index th:first-child {
-    width: 40%;
+  width: 40%;
 }
 .account_data__index th:nth-child(2) {
-    width: 20%;
+  width: 20%;
 }
 .account_data__index th:nth-child(3) {
-    width: 25%;
+  width: 25%;
 }
 .account_data__index th:nth-child(4) {
-    width: 15%;
+  width: 15%;
 }
 .account_data__line td:first-child {
-    padding-left: 2%;
+  padding-left: 2%;
 }
 .account_data__line td:nth-child(2) {
-    text-align: right;
-    padding-right: 2%;
+  text-align: right;
+  padding-right: 2%;
 }
 .account_data__line td:nth-child(3), .account_data__line td:nth-child(4) {
-    text-align: center;
+  text-align: center;
 }
 .account_body_blue_line td {
-    border-right: 1px solid #03f;
-    border-bottom: 1px dashed #03f;
+  border-right: 1px solid #03f;
+  border-bottom: 1px dashed #03f;
 }
 .bk_orange {
-    background-color: #fdc;
+  background-color: #fdc;
 }
 .bk_blue {
-    background-color: #def;
+  background-color: #def;
 }
 .account_body_blue_last_line td {
-    border-bottom: 3px double #03f;
+  border-bottom: 3px double #03f;
 }
 .table_red_line {
-    border-top: 1px solid #f00;
-    border-right: 1px solid #f00;
-    border-bottom: 1px solid #f00;
-    border-left: 1px solid #f00;
+  border-top: 1px solid #f00;
+  border-right: 1px solid #f00;
+  border-bottom: 1px solid #f00;
+  border-left: 1px solid #f00;
 }
 .red {
-    background-color: #f00;
+  background-color: #f00;
 }
 .bk_red {
-    background-color: #fcc;
+  background-color: #fcc;
 }
 .account_body_red_line td {
-    border-right: 1px solid #f00;
-    border-bottom: 1px dashed #f00;
+  border-right: 1px solid #f00;
+  border-bottom: 1px dashed #f00;
 }
 .account_body_red_last_line td {
-    border-bottom: 3px double #f00;
+  border-bottom: 3px double #f00;
+}
+.tweet_standard {
+  position: relative;
 }
 .account_data__list:nth-child(3), .account_data__list:nth-child(4) {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 .account_body_blue_bottom {
-    border-bottom: 1px solid #03f;
+  border-bottom: 1px solid #03f;
 }
 .text_cancellation {
-    text-decoration: line-through;
+  text-decoration: line-through;
+}
+.tweet {
+  position: absolute;
+  bottom: 14%;
+  left: 22%;
+}
+.tweet__face {
+  position: absolute;
+  top: -42%;
+  left: 88%;
+  opacity: 0.8;
+  z-index: 3;
+}
+.tweet__face__img {
+  width: 3vw;
+}
+.tweet__text {
+  position: relative;
+  font-size: 0.8em;
+  background: #fdc;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 0.8em;
+  width: 100%;
+  padding: 4% 15%;
+  z-index: 2;
+}
+.tweet__text__arrow::before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: -58%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0px 22px 27px;
+  border-color: transparent transparent transparent #333;
+}
+.tweet__text__arrow::after {
+  content: "";
+  position: absolute;
+  top: 47%;
+  right: -54%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0 20px 25px;
+  border-color: transparent transparent transparent #fdc;
+  z-index: 2;
 }
 .account_data__line td.balance{
-    text-align: right;
-    padding-right: 2%;
+  text-align: right;
+  padding-right: 2%;
 }
 .excess {
-    color: #f00;
+  color: #f00;
 }
 .menu {
-    margin-top: 6%;
+  margin-top: 6%;
+  margin-right: 2%;
+  outline: 1px solid #333;
+  padding: 2%;
 }
 .menu__contents {
-    margin-top: 2%;
-    padding-right: 2%;
+  margin-top: 2%;
+  padding-right: 2%;
 }
 .menu__contents__list {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.menu__contents__list__detail {
+  pointer-events: stroke;
 }

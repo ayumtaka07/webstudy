@@ -6,6 +6,12 @@
         <meta name="description" content="勉強用家計簿ページです。">
         <title>家計簿ページ</title>
         <link rel="stylesheet" type="text/css" href="index.css">
+        <style type="text/css">
+            /* body {color: #333; font-family: sans-serif;}
+            img {height: auto; width: 100%; vertical-align: middle;}
+            .account_data {display: flex; flex-wrap: wrap; list-style-type: none; width: 100%;}
+            .account_data__list {width: calc(50% - 2%);} */
+        </style>
     </head>
     <body>
         <div class="contents">
@@ -16,7 +22,9 @@
                 <ul class="account_data">
                     <!-- 上段 -->
                     <li class="account_data__list">
-                        <h2 class="account_data__headline">今月の収入</h2>
+                        <p class="account_data__headline">
+                            <strong>今月の収入</strong>
+                        </p>
                         <table class="account_data__table table_blue_line">
                             <tr class="account_data__index blue">
                                 <th>項目</th>
@@ -63,7 +71,9 @@
                         </table>
                     </li>
                     <li class="account_data__list">
-                        <h2 class="account_data__headline">今月の貯蓄額</h2>
+                        <p class="account_data__headline">
+                            <strong>今月の貯蓄額</strong>
+                        </p>
                         <table class="account_data__table table_red_line">
                             <tr class="account_data__index red">
                                 <th>項目</th>
@@ -110,8 +120,10 @@
                         </table>
                     </li>
                     <!-- 下段 -->
-                    <li class="account_data__list">
-                        <h2 class="account_data__headline">今月の固定支出</h2>
+                    <li class="account_data__list tweet_standard">
+                        <p class="account_data__headline">
+                            <strong>今月の固定支出</strong>
+                        </p>
                         <table class="account_data__table table_blue_line">
                             <tr class="account_data__index blue">
                                 <th>項目</th>
@@ -222,9 +234,18 @@
                                 <td>&nbsp;</td>
                             </tr>
                         </table>
+                        <div class="tweet">
+                            <span class="tweet__face">
+                                <img class="tweet__face__img" src="./common/img/sample.png" alt="">
+                            </span>
+                            <p class="tweet__text">5000円の<br>増額要請あり</p>
+                            <div class="tweet__text__arrow"></div>
+                        </div>
                     </li>
                     <li class="account_data__list">
-                        <h2 class="account_data__headline">今月の生活費(予算:12万円)</h2>
+                        <p class="account_data__headline">
+                            <strong>今月の生活費(予算:12万円)</strong>
+                        </p>
                         <table class="account_data__table table_red_line">
                             <tr class="account_data__index red">
                                 <th>項目</th>
@@ -339,7 +360,7 @@
                 </ul>
             </main>
             <section class="menu">
-                <h3 class="menu__ttl">メニュー</h3>
+                <h2 class="menu__ttl">メニュー</h2>
                 <nav class="menu__contents">
                     <ul class="menu__contents__list">
                         <li class="menu__contents__list__detail">
