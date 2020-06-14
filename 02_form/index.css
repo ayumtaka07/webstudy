@@ -17,7 +17,7 @@ img {
   padding: 4% 6%;
 }
 .contents__ttl {
-    width: 50%;
+  width: 50%;
 }
 .contents__table {
   border-collapse: collapse;
@@ -58,7 +58,7 @@ img {
   color: #fff;
 }
 .text__frame {
-    height: 3vh;
+  height: 3vh;
 }
 .contents__table__option {
   background-color: transparent;
@@ -96,151 +96,156 @@ img {
 
 /* 2つめtable */
 .table_margin {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 .adress__index {
-    padding: 10% 2%;
+  padding: 10% 2%;
 }
 .postal {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .postal::before {
-    content: "〒";
-    margin-right: 1%;
+  content: "〒";
+  margin-right: 1%;
 }
 .postal__search {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 .postal__attention::before {
-    content: "※";
+  content: "※";
 }
 .adress {
-    display: inline-grid;
-    margin-top: 2%;
+  display: inline-grid;
+  margin-top: 2%;
 }
 .adress__box {
-    height: 4vh;
-    width: 7vw;
-    cursor: pointer;
+  height: 4vh;
+  width: 7vw;
+  cursor: pointer;
 }
 .adress__frame {
-    width: 40vw;
-    margin-top: 2%;
+  width: 40vw;
+  margin-top: 2%;
 }
 .building_type {
-    height: 4vh;
-    width: 10vw;
-    cursor: pointer;
+  height: 4vh;
+  width: 10vw;
+  cursor: pointer;
 }
 .building_floor {
-    height: 4vh;
-    width: 10vw;
-    cursor: pointer;
-    margin-left: 2%;
+  height: 4vh;
+  width: 10vw;
+  cursor: pointer;
+  margin-left: 2%;
 }
 .transportation {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
 }
 .transportation__short_element {
-    width: 20%;
+  width: 20%;
 }
 .transportation__long_element {
-    width: 28%;
+  width: 28%;
 }
 .contents__table__transportation {
-    background-color: transparent;
-    padding: 4% 2%;
+  background-color: transparent;
+  padding: 4% 2%;
 }
 .name_index {
-    padding: 4% 2%;
+  padding: 4% 2%;
 }
 .info__flex {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 3%;
 }
 .info__flex__box {
-    width: 50%;
+  width: 50%;
 }
 .info__family::before{
-    content: "姓";
-    margin: 0 2% 0 6%;
+  content: "姓";
+  margin: 0 2% 0 6%;
 }
 .info__name::before{
-    content: "名";
-    margin: 0 2% 0 6%;
+  content: "名";
+  margin: 0 2% 0 6%;
 }
 .info__kana_family {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 .info__kana_family::before{
-    content: "セイ";
-    margin-right: 2%;
+  content: "セイ";
+  margin-right: 2%;
 }
 .info__kana_name {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 .info__kana_name::before{
-    content: "メイ";
-    margin-right: 2%;
+  content: "メイ";
+  margin-right: 2%;
 }
 .info__name__text {
-    height: 3vh;
-    width: 16vw;
+  height: 3vh;
+  width: 16vw;
 }
 .tel_index {
-    padding: 3% 2%;
+  padding: 3% 2%;
 }
 .tel_frame {
-    height: 3vh;
-    width: 30vw;
+  height: 3vh;
+  width: 30vw;
 }
 .tel_attention::before{
-    content: "※";
+  content: "※";
 }
 .mail__frame {
-    height: 3vh;
-    width: 30vw;
+  height: 3vh;
+  width: 30vw;
 }
 .contents_position {
-    position: relative;
+  position: relative;
 }
 .input_contact {
-    margin-right: 2%;
-    cursor: pointer;
+  margin-right: 2%;
+  cursor: pointer;
 }
 .contents__table__contact {
-    background-color: transparent;
-    padding: 4% 2%;
+  background-color: transparent;
+  padding: 4% 2%;
 }
 .contact__attention::before {
-    content: "※";
-    position: absolute;
-    bottom: 40%;
-    left: auto;
+  content: "※";
+  position: absolute;
+  bottom: 40%;
+  left: auto;
 }
 .contact__attention__text {
-    padding-left: 2%;
+  padding-left: 2%;
 }
 .contents__table__other {
-    background-color: transparent;
-    padding: 10% 2%;
+  background-color: transparent;
+  padding: 10% 2%;
 }
 .other__textarea {
-    height: 23vh;
-    width: 58vw;
+  height: 23vh;
+  width: 58vw;
 }
 .other__attention::before {
-    content: "※";
+  content: "※";
 }
 .btn {
-    width: 32%;
-    margin: 2% auto 0;
+  width: 32%;
+  margin: 2% auto 0;
 }
 .confirmation::before {
-    content: "※";
+  content: "※";
+}
+.submit__btn {
+  display: block;
+  width: 100%;
+  height: auto;
 }
