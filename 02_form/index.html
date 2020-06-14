@@ -8,11 +8,14 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
+        <!-- 以下フォーム -->
         <div class="contents">
             <h1 class="contents__ttl">
                 <img class="ttl__logo" src="./common/img/sample.png" alt="ズバットピアノ買取比較">
             </h1>
             <form class="purchase_form" action="index.html" method="post">
+                <input id="hiddenId" name="hiddenId" type="hidden" value="123456">
+                <!-- 入力スペース1 -->
                 <table class="contents__table">
                     <caption>ピアノの情報</caption>
                     <tr class="contents__table__tr">
@@ -112,6 +115,7 @@
                         </td>
                     </tr>
                 </table>
+                <!-- 入力スペース2 -->
                 <table class="contents__table table_margin">
                     <caption>ピアノが置いてある場所</caption>
                     <tr class="contents__table__tr">
@@ -251,6 +255,7 @@
                         </td>
                     </tr>
                 </table>
+                <!-- 入力スペース3 -->
                 <table class="contents__table table_margin">
                     <caption>お客様の情報</caption>
                     <tr class="contents__table__tr">
@@ -319,10 +324,10 @@
                     </tr>
                 </table>
                 <div class="btn">
-                    <p class="confirmation">内容をご確認後、
-                        <a href="#">『ご利用規約』</a>
-                        に同意の上</p>
-                    <input class="submit__btn" type="image" src="./common/img/submit.jpg" name="post_btn" value="一括査定依頼">
+                    <p class="confirmation">内容をご確認後、<a href="#">『ご利用規約』</a>に同意の上</p>
+                    <div class="submit">
+                        <input class="submit__btn" type="image" src="./common/img/submit.jpg" name="post_btn" value="一括査定依頼">
+                    </div>
                 </div>
             </form>
         </div>
